@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 #endif
     int            report_energy;
     FILE          *f_ratek = NULL;
-    float         *user_ratek;
+    float         *user_ratek = NULL;
     int            K;
     
     char* opt_string = "h:";
